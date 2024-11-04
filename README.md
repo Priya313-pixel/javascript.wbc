@@ -55,11 +55,59 @@ e.g. let arr =["hari", "sita", "ram"]
 2.Object:
 -Object is a reference type of datatype where we can store more than one elemenet is a single frame.
 -Mainly object are working on (key:value) pair.
+
 e.g. let hari = {
   "name" :"hari bandhu sahoo",
   "phone number" :687677777,
   "address" : "bhubaneswar",
   "carrier" : "good"
 }          
--In the above example left side element are the keys and right side element are the values of that key.     
+-In the above example left side element are the keys and right side element are the values of that key.
+
+3.Function:
+-In function we repeatedly do the task in a function.
+-Function reduce our code complexity and time and space complexity.
+syntax:-
+
+function->
+
+function my_schedule(){
+  console.log("we wake up at 6am")
+  console.log("we go for a amorning walk")
+}
+
+function calling->
+
+my_schedule();
+
+Operator in javascript:-
+
+-Operator are the key features to do some task or operate some task.
+-e.g. A+B
+-In the above example A & B are the operands, "+" is our operator.
+-In javascript, there are 5 types of operator are there...
+
+1.Arithmatic operator->(+,-,*,/),%(modulus),**(exponent)
+2.Assignment operator->(=,+=,-+,*=,/=,%=,**=)
+3.Comparision operator->(==,!==,===)
+4.Logical operator->Logical AND(&&),Logical OR(!!),Logical NOT(!)
+5.Unary operator->increment(++),decrement(--)
+
+logical AND(&&):-
+
+A B AND(&&)
+T T   T
+T F   F
+F T   F 
+F F   F
+
+Logical OR(||):-
+
+A B OR(||)
+T T   T
+T F   T
+F T   T
+F F   F
+
+Logical 
 

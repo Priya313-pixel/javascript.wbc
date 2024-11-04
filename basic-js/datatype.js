@@ -33,13 +33,21 @@
 // console.log(arr[7])
 // console.log(typeof(arr))//object
 
-let hari = {
-    "name" :"hari bandhu sahoo",
-    "phone number" :687677777,
-    "address" : "bhubaneswar",
-    "carrier" : "good"
-  }  
-  console.log(hari)
-  console.log(hari["address"])
-  console.log(hari["carrier"])
-  console.log(typeof(hari))        
+// let hari = {
+//     "name" :"hari bandhu sahoo",
+//     "phone number" :687677777,
+//     "address" : "bhubaneswar",
+//     "carrier" : "good"
+//   }  
+//   console.log(hari)
+//   console.log(hari["address"])
+//   console.log(hari["carrier"])
+//   console.log(typeof(hari)) 
+
+function my_schedule(){
+  console.log("we wake up at 6am")
+  console.log("we go for a amorning walk")
+}
+my_schedule();
+my_schedule();
+
