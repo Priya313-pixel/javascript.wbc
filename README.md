@@ -357,3 +357,20 @@ sum(2,3);
 Practice task:-
 
 create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in that string.(TCS String Question)
+
+for each loop in Array:-
+
+- arr.forEach(callbackFunction)
+- callBackFunction:- it is a function to excute for each element in the array.
+- a callback is a function passed as an argument to another function.
+
+ex.
+
+arr.forEach((val) => {
+  console.log(val)
+})
+
+practice task:-
+1.create a function that reverse an array.
+2.create a function that filter out negative numbers.
+3.check if a string is a palindrome or not.
