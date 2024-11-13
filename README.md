@@ -374,3 +374,30 @@ practice task:-
 1.create a function that reverse an array.
 2.create a function that filter out negative numbers.
 3.check if a string is a palindrome or not.
+
+task:- for a given array of numbers, print the square of each value using foreach loop
+let arr=[1,2,3,4,5,6,7]
+
+Map method:-
+
+- Create a new array with the result of some operation. The value its callback returns are used to form a new
+array. Normally we create a new array by calling the function in every array element.
+- map doesnot change the original array.
+- It doesnot execute the function for empty array/element.
+- Syntax ->arr.map(callbackFun(value,index,array))
+
+ex.
+let newArr = arr.map((val)) => {
+  return val*2;
+})
+
+Filter method:-
+
+- create a new array of element that gives true for a condition/filter.
+- ex. all even elements 
+
+let newArr = arr.filter((val) => {
+  return val% 2 ===0;
+})
+
+

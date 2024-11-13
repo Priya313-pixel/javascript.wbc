@@ -71,6 +71,39 @@
 
 // 3.check if a string is a palindrome or not.
 
+// let nums = [6,8,4,7]
+
+// let newArr = nums.map((val) => {
+//     return val*val;
+// })
+
+// console.log(nums)
+// console.log(newArr)
+
+// for a given array of numbers, print the square of each value using foreach loop, let arr=[1,2,3,4,5,6,7]
+
+// let arr = [1,2,3,4,5,6,7]
+// arr.forEach((val) => {
+// console.log(val*val)
+// })
+
+// filter method
+
+// let arr = [1,2,3,4,7,8,9]
+
+// let evenArr = arr.filter((val) => { 
+//     return val % 2 ===0;
+// })
+//     console.log(evenArr)
+
+//we are given array of marks of students, filter out of the marks of students that scored more than 90.
+// marks = [78,89,90,53,95,28,96]
+
+let marks = [78,89,90,53,95,28,96]
+let newMark = marks.filter((val) =>{
+    return val >90;
+})
+console.log(newMark)
 
 
 
